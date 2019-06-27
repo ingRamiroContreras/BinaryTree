@@ -47,4 +47,11 @@ public class Nodo {
         this.hojaDerecha = hojaDerecha;
     }
 
+	@Override
+	public String toString() {
+		return "Nodo [valor=" + valor + ", hojaIzquierda=" + hojaIzquierda + ", hojaDerecha=" + hojaDerecha + "]";
+	}
+    
+    
+
 }

@@ -54,7 +54,7 @@ public class BinaryTreeController {
 		return arbol;
 	}
 
-	@GetMapping("/generarTreeTest")
+	@GetMapping("/geneateTreesJson")
 	public GenerateTree geneateTreeTest() {
 
 		int[] intArray = new int[] { 4, 5, 6, 7, 8 };
@@ -75,6 +75,26 @@ public class BinaryTreeController {
 		}
 
 		return arbol;
+	}
+	
+	@GetMapping("/ListadoNodoPadre")
+	public Nodo getAllNodoPadre() {
+		Arbol arbol = new Arbol(67);
+
+		arbol.addNodo(new Nodo(39));
+		arbol.addNodo(new Nodo(76));
+
+		arbol.addNodo(new Nodo(28));
+		arbol.addNodo(new Nodo(44));
+
+		arbol.addNodo(new Nodo(29));
+		arbol.addNodo(new Nodo(74));
+		arbol.addNodo(new Nodo(85));
+
+		arbol.addNodo(new Nodo(83));
+		arbol.addNodo(new Nodo(87));
+
+		return arbol.findLCA(29, 87);
 	}
 
 }
