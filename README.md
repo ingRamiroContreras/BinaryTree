@@ -15,7 +15,7 @@ java -jar test-0.0.1-SNAPSHOT.jar
 
 ## Consumo servicios 
 
-### Creacion Arbol 
+Creacion Arbol 
 
 ```json
 Method = POST
@@ -34,7 +34,7 @@ Body =
 }
 ```
 
-### Ancestro común más cercano
+Ancestro común más cercano
 
 ```json
 Method = POST
@@ -53,6 +53,8 @@ Body =
         6
     ]
 }
+
+Ejemplo url = http://localhost:8181/api/BinaryTreeLAC/5/6
 ```
 
 ## Proyecto realizado en JAVA y Spring Boot
