@@ -7,7 +7,7 @@ mas cercano.
 
 Descargar archivo test-0.0.1-SNAPSHOT.jar  ubicado en la carpeta [jar].
 
-ejecutar JAR
+Ejecutar JAR
 
 ```bash
 java -jar test-0.0.1-SNAPSHOT.jar
@@ -15,7 +15,7 @@ java -jar test-0.0.1-SNAPSHOT.jar
 
 ## Consumo servicios 
 
-Creacion Arbol 
+Creación Arbol 
 
 ```json
 Method = POST
@@ -59,7 +59,7 @@ Ejemplo url = http://localhost:8181/api/BinaryTreeLAC/5/6
 
 ## Proyecto realizado en JAVA y Spring Boot
 
- - Descargar el proyecto.
+ - Descargar el proyecto o clonarlo.
  - Importarlo en eclipse o STS como proyecto MAVEN.
  - Ejecutar como Spring Boot App.
  - El proyecto se esta ejecutando por el puerto = 8181. 
